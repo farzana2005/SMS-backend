@@ -483,13 +483,7 @@ app.post("/payment",async (req,res)=>{
 
 
 
-  //  let paymentSave = new payment({
-  //      date:date,
-  //        month:month,
-  //       year:year,
-  //       amount:req.body.amount,
-  //        studentname: req.body.studentname,
-  //         trans:trans
+  
 
   let paymentSave = new Payment({
     date: date,
